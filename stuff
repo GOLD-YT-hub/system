@@ -306,7 +306,8 @@ AdminTools.UICorner_8.CornerRadius = UDim.new(0, 8)
 
 AdminTools.OpenTAB.Draggable = true
 
-local drag = Instance.new("DragDetector")
+local drag = Instance.new("UIDragDetector")
+drag.Name = "DragDetector"
 drag.Parent = AdminTools.Tab
 
 AdminTools._.MouseButton1Click:Connect(function()
