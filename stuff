@@ -1,0 +1,333 @@
+-- FRVGMXNT GUI2LUA CONVERTER 1.2. Like pls!
+local AdminTools = {
+	AdminTools = Instance.new("ScreenGui"),
+	Tab = Instance.new("Frame"),
+	UICorner = Instance.new("UICorner"),
+	UIStroke = Instance.new("UIStroke"),
+	X = Instance.new("TextButton"),
+	UIStroke_2 = Instance.new("UIStroke"),
+	UICorner_2 = Instance.new("UICorner"),
+	_ = Instance.new("TextButton"),
+	UIStroke_3 = Instance.new("UIStroke"),
+	UICorner_3 = Instance.new("UICorner"),
+	Inf_Yield = Instance.new("TextButton"),
+	UIStroke_4 = Instance.new("UIStroke"),
+	UICorner_4 = Instance.new("UICorner"),
+	Dex_Explorer = Instance.new("TextButton"),
+	UIStroke_5 = Instance.new("UIStroke"),
+	UICorner_5 = Instance.new("UICorner"),
+	Cobalt = Instance.new("TextButton"),
+	UIStroke_6 = Instance.new("UIStroke"),
+	UICorner_6 = Instance.new("UICorner"),
+	Check_Game = Instance.new("TextButton"),
+	UIStroke_7 = Instance.new("UIStroke"),
+	UICorner_7 = Instance.new("UICorner"),
+	OpenTAB = Instance.new("TextButton"),
+	UIStroke_8 = Instance.new("UIStroke"),
+	UICorner_8 = Instance.new("UICorner"),
+}
+
+AdminTools.AdminTools.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AdminTools.Tab.Parent = AdminTools.AdminTools
+AdminTools.UICorner.Parent = AdminTools.Tab
+AdminTools.UIStroke.Parent = AdminTools.Tab
+AdminTools.X.Parent = AdminTools.Tab
+AdminTools.UIStroke_2.Parent = AdminTools.X
+AdminTools.UICorner_2.Parent = AdminTools.X
+AdminTools._.Parent = AdminTools.Tab
+AdminTools.UIStroke_3.Parent = AdminTools._
+AdminTools.UICorner_3.Parent = AdminTools._
+AdminTools.Inf_Yield.Parent = AdminTools.Tab
+AdminTools.UIStroke_4.Parent = AdminTools.Inf_Yield
+AdminTools.UICorner_4.Parent = AdminTools.Inf_Yield
+AdminTools.Dex_Explorer.Parent = AdminTools.Tab
+AdminTools.UIStroke_5.Parent = AdminTools.Dex_Explorer
+AdminTools.UICorner_5.Parent = AdminTools.Dex_Explorer
+AdminTools.Cobalt.Parent = AdminTools.Tab
+AdminTools.UIStroke_6.Parent = AdminTools.Cobalt
+AdminTools.UICorner_6.Parent = AdminTools.Cobalt
+AdminTools.Check_Game.Parent = AdminTools.Tab
+AdminTools.UIStroke_7.Parent = AdminTools.Check_Game
+AdminTools.UICorner_7.Parent = AdminTools.Check_Game
+AdminTools.OpenTAB.Parent = AdminTools.AdminTools
+AdminTools.UIStroke_8.Parent = AdminTools.OpenTAB
+AdminTools.UICorner_8.Parent = AdminTools.OpenTAB
+
+AdminTools.AdminTools.Name = "AdminTools"
+AdminTools.AdminTools.ResetOnSpawn = true
+AdminTools.AdminTools.IgnoreGuiInset = false
+AdminTools.AdminTools.DisplayOrder = 0
+
+AdminTools.Tab.Name = "Tab"
+AdminTools.Tab.ZIndex = 1
+AdminTools.Tab.Position = UDim2.new(0.364647716, 0, 0.174904943, 0)
+AdminTools.Tab.Size = UDim2.new(0, 218, 0, 341)
+AdminTools.Tab.BackgroundColor3 = Color3.fromRGB(86,86,86)
+AdminTools.Tab.BackgroundTransparency = 0.25
+AdminTools.Tab.Visible = true
+AdminTools.Tab.AnchorPoint = Vector2.new(0, 0)
+AdminTools.Tab.ClipsDescendants = false
+AdminTools.Tab.BorderSizePixel = 0
+
+AdminTools.UICorner.Name = "UICorner"
+AdminTools.UICorner.CornerRadius = UDim.new(0, 16)
+
+AdminTools.UIStroke.Name = "UIStroke"
+AdminTools.UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+AdminTools.UIStroke.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke.Thickness = 3
+AdminTools.UIStroke.Transparency = 0
+AdminTools.UIStroke.Enabled = true
+
+AdminTools.X.Name = "X"
+AdminTools.X.ZIndex = 1
+AdminTools.X.Position = UDim2.new(0.839449525, 0, 0.0234604105, 0)
+AdminTools.X.Size = UDim2.new(0, 25, 0, 25)
+AdminTools.X.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools.X.BackgroundTransparency = 0.25
+AdminTools.X.Text = "X"
+AdminTools.X.TextScaled = true
+AdminTools.X.TextSize = 14
+AdminTools.X.Font = Enum.Font.Unknown
+AdminTools.X.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools.X.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools.X.TextStrokeTransparency = 1
+AdminTools.X.TextWrapped = true
+AdminTools.X.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools.X.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools.X.TextTransparency = 0
+AdminTools.X.Visible = true
+AdminTools.X.AnchorPoint = Vector2.new(0, 0)
+AdminTools.X.ClipsDescendants = false
+
+AdminTools.UIStroke_2.Name = "UIStroke"
+AdminTools.UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_2.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_2.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_2.Thickness = 3
+AdminTools.UIStroke_2.Transparency = 0
+AdminTools.UIStroke_2.Enabled = true
+
+AdminTools.UICorner_2.Name = "UICorner"
+AdminTools.UICorner_2.CornerRadius = UDim.new(0, 4)
+
+AdminTools._.Name = "-"
+AdminTools._.ZIndex = 1
+AdminTools._.Position = UDim2.new(0.697247684, 0, 0.0234604105, 0)
+AdminTools._.Size = UDim2.new(0, 25, 0, 25)
+AdminTools._.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools._.BackgroundTransparency = 0.25
+AdminTools._.Text = "-"
+AdminTools._.TextScaled = true
+AdminTools._.TextSize = 14
+AdminTools._.Font = Enum.Font.Unknown
+AdminTools._.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools._.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools._.TextStrokeTransparency = 1
+AdminTools._.TextWrapped = true
+AdminTools._.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools._.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools._.TextTransparency = 0
+AdminTools._.Visible = true
+AdminTools._.AnchorPoint = Vector2.new(0, 0)
+AdminTools._.ClipsDescendants = false
+
+AdminTools.UIStroke_3.Name = "UIStroke"
+AdminTools.UIStroke_3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_3.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_3.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_3.Thickness = 3
+AdminTools.UIStroke_3.Transparency = 0
+AdminTools.UIStroke_3.Enabled = true
+
+AdminTools.UICorner_3.Name = "UICorner"
+AdminTools.UICorner_3.CornerRadius = UDim.new(0, 4)
+
+AdminTools.Inf_Yield.Name = "Inf Yield"
+AdminTools.Inf_Yield.ZIndex = 1
+AdminTools.Inf_Yield.Position = UDim2.new(0.0412844047, 0, 0.246334314, 0)
+AdminTools.Inf_Yield.Size = UDim2.new(0, 200, 0, 50)
+AdminTools.Inf_Yield.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools.Inf_Yield.BackgroundTransparency = 0.25
+AdminTools.Inf_Yield.Text = "Infinite Yield"
+AdminTools.Inf_Yield.TextScaled = true
+AdminTools.Inf_Yield.TextSize = 14
+AdminTools.Inf_Yield.Font = Enum.Font.FredokaOne
+AdminTools.Inf_Yield.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Inf_Yield.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Inf_Yield.TextStrokeTransparency = 1
+AdminTools.Inf_Yield.TextWrapped = true
+AdminTools.Inf_Yield.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools.Inf_Yield.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools.Inf_Yield.TextTransparency = 0
+AdminTools.Inf_Yield.Visible = true
+AdminTools.Inf_Yield.AnchorPoint = Vector2.new(0, 0)
+AdminTools.Inf_Yield.ClipsDescendants = false
+
+AdminTools.UIStroke_4.Name = "UIStroke"
+AdminTools.UIStroke_4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_4.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_4.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_4.Thickness = 3
+AdminTools.UIStroke_4.Transparency = 0
+AdminTools.UIStroke_4.Enabled = true
+
+AdminTools.UICorner_4.Name = "UICorner"
+AdminTools.UICorner_4.CornerRadius = UDim.new(0, 4)
+
+AdminTools.Dex_Explorer.Name = "Dex Explorer"
+AdminTools.Dex_Explorer.ZIndex = 1
+AdminTools.Dex_Explorer.Position = UDim2.new(0.0410000011, 0, 0.44600001, 0)
+AdminTools.Dex_Explorer.Size = UDim2.new(0, 200, 0, 50)
+AdminTools.Dex_Explorer.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools.Dex_Explorer.BackgroundTransparency = 0.25
+AdminTools.Dex_Explorer.Text = "Dex Explorer"
+AdminTools.Dex_Explorer.TextScaled = true
+AdminTools.Dex_Explorer.TextSize = 14
+AdminTools.Dex_Explorer.Font = Enum.Font.FredokaOne
+AdminTools.Dex_Explorer.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Dex_Explorer.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Dex_Explorer.TextStrokeTransparency = 1
+AdminTools.Dex_Explorer.TextWrapped = true
+AdminTools.Dex_Explorer.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools.Dex_Explorer.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools.Dex_Explorer.TextTransparency = 0
+AdminTools.Dex_Explorer.Visible = true
+AdminTools.Dex_Explorer.AnchorPoint = Vector2.new(0, 0)
+AdminTools.Dex_Explorer.ClipsDescendants = false
+
+AdminTools.UIStroke_5.Name = "UIStroke"
+AdminTools.UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_5.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_5.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_5.Thickness = 3
+AdminTools.UIStroke_5.Transparency = 0
+AdminTools.UIStroke_5.Enabled = true
+
+AdminTools.UICorner_5.Name = "UICorner"
+AdminTools.UICorner_5.CornerRadius = UDim.new(0, 4)
+
+AdminTools.Cobalt.Name = "Cobalt"
+AdminTools.Cobalt.ZIndex = 1
+AdminTools.Cobalt.Position = UDim2.new(0.0410000011, 0, 0.646000028, 0)
+AdminTools.Cobalt.Size = UDim2.new(0, 200, 0, 50)
+AdminTools.Cobalt.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools.Cobalt.BackgroundTransparency = 0.25
+AdminTools.Cobalt.Text = "Cobalt"
+AdminTools.Cobalt.TextScaled = true
+AdminTools.Cobalt.TextSize = 14
+AdminTools.Cobalt.Font = Enum.Font.FredokaOne
+AdminTools.Cobalt.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Cobalt.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Cobalt.TextStrokeTransparency = 1
+AdminTools.Cobalt.TextWrapped = true
+AdminTools.Cobalt.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools.Cobalt.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools.Cobalt.TextTransparency = 0
+AdminTools.Cobalt.Visible = true
+AdminTools.Cobalt.AnchorPoint = Vector2.new(0, 0)
+AdminTools.Cobalt.ClipsDescendants = false
+
+AdminTools.UIStroke_6.Name = "UIStroke"
+AdminTools.UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_6.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_6.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_6.Thickness = 3
+AdminTools.UIStroke_6.Transparency = 0
+AdminTools.UIStroke_6.Enabled = true
+
+AdminTools.UICorner_6.Name = "UICorner"
+AdminTools.UICorner_6.CornerRadius = UDim.new(0, 4)
+
+AdminTools.Check_Game.Name = "Check Game"
+AdminTools.Check_Game.ZIndex = 1
+AdminTools.Check_Game.Position = UDim2.new(0.0410000011, 0, 0.815999985, 0)
+AdminTools.Check_Game.Size = UDim2.new(0, 200, 0, 50)
+AdminTools.Check_Game.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools.Check_Game.BackgroundTransparency = 0.25
+AdminTools.Check_Game.Text = "Check  Game (NOT DONE)"
+AdminTools.Check_Game.TextScaled = true
+AdminTools.Check_Game.TextSize = 14
+AdminTools.Check_Game.Font = Enum.Font.FredokaOne
+AdminTools.Check_Game.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Check_Game.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools.Check_Game.TextStrokeTransparency = 1
+AdminTools.Check_Game.TextWrapped = true
+AdminTools.Check_Game.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools.Check_Game.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools.Check_Game.TextTransparency = 0
+AdminTools.Check_Game.Visible = true
+AdminTools.Check_Game.AnchorPoint = Vector2.new(0, 0)
+AdminTools.Check_Game.ClipsDescendants = false
+
+AdminTools.UIStroke_7.Name = "UIStroke"
+AdminTools.UIStroke_7.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_7.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_7.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_7.Thickness = 3
+AdminTools.UIStroke_7.Transparency = 0
+AdminTools.UIStroke_7.Enabled = true
+
+AdminTools.UICorner_7.Name = "UICorner"
+AdminTools.UICorner_7.CornerRadius = UDim.new(0, 4)
+
+AdminTools.OpenTAB.Name = "OpenTAB"
+AdminTools.OpenTAB.ZIndex = 1
+AdminTools.OpenTAB.Position = UDim2.new(0.480840534, 0, 0.0513307974, 0)
+AdminTools.OpenTAB.Size = UDim2.new(0, 30, 0, 30)
+AdminTools.OpenTAB.BackgroundColor3 = Color3.fromRGB(55,55,55)
+AdminTools.OpenTAB.BackgroundTransparency = 0.25
+AdminTools.OpenTAB.Text = "!"
+AdminTools.OpenTAB.TextScaled = true
+AdminTools.OpenTAB.TextSize = 14
+AdminTools.OpenTAB.Font = Enum.Font.FredokaOne
+AdminTools.OpenTAB.TextColor3 = Color3.fromRGB(0,0,0)
+AdminTools.OpenTAB.TextStrokeColor3 = Color3.fromRGB(0,0,0)
+AdminTools.OpenTAB.TextStrokeTransparency = 1
+AdminTools.OpenTAB.TextWrapped = true
+AdminTools.OpenTAB.TextXAlignment = Enum.TextXAlignment.Center
+AdminTools.OpenTAB.TextYAlignment = Enum.TextYAlignment.Center
+AdminTools.OpenTAB.TextTransparency = 0
+AdminTools.OpenTAB.Visible = false
+AdminTools.OpenTAB.AnchorPoint = Vector2.new(0, 0)
+AdminTools.OpenTAB.ClipsDescendants = false
+
+AdminTools.UIStroke_8.Name = "UIStroke"
+AdminTools.UIStroke_8.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+AdminTools.UIStroke_8.Color = Color3.fromRGB(0,0,0)
+AdminTools.UIStroke_8.LineJoinMode = Enum.LineJoinMode.Round
+AdminTools.UIStroke_8.Thickness = 3
+AdminTools.UIStroke_8.Transparency = 0
+AdminTools.UIStroke_8.Enabled = true
+
+AdminTools.UICorner_8.Name = "UICorner"
+AdminTools.UICorner_8.CornerRadius = UDim.new(0, 8)
+
+AdminTools.OpenTAB.Draggable = true
+
+AdminTools._.MouseButton1Click:Connect(function()
+	AdminTools.Tab.Visible = false
+	AdminTools.OpenTAB.Visible = true
+end)
+
+AdminTools.X.MouseButton1Click:Connect(function()
+	AdminTools:destroy()
+end)
+
+AdminTools.OpenTAB.MouseButton1Click:Connect(function()
+	AdminTools.Tab.Visible = true
+	AdminTools.OpenTAB.Visible = false
+end)
+
+AdminTools.Inf_Yield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+AdminTools.Dex_Explorer.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+AdminTools.Cobalt.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
+end)
