@@ -305,6 +305,7 @@ AdminTools.UICorner_8.Name = "UICorner"
 AdminTools.UICorner_8.CornerRadius = UDim.new(0, 8)
 
 AdminTools.OpenTAB.Draggable = true
+AdminTools.Tab.Draggable = true
 
 AdminTools._.MouseButton1Click:Connect(function()
 	AdminTools.Tab.Visible = false
@@ -325,9 +326,9 @@ AdminTools.Inf_Yield.MouseButton1Click:Connect(function()
 end)
 
 AdminTools.Dex_Explorer.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+	loadstring(game:HttpGet("https://github.com/AZYsGithub/DexPlusPlus/releases/download/stable-2.0/out.lua"))()
 end)
 
 AdminTools.Cobalt.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://github.com/notpoiu/cobalt/releases/latest/download/Cobalt.luau"))()
+	loadstring(game:HttpGet("https://gitlab.com/upio/cobalt/-/releases/permalink/latest/downloads/Cobalt.luau"))()
 end)
